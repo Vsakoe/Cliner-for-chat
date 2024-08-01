@@ -59,4 +59,4 @@ class DelMod(loader.Module):
         if removed_count == 0:
             await edit_message.edit("<emoji document_id=5341509066344637610>😎</emoji> <b>Здесь нет ни одного удалённого аккаунта</b>")
         else:
-            await edit_message.edit(f"**<emoji document_id=5328302454226298081>🫥</emoji> Удалено {removed_count} удалённых аккаунтов**")
+            await edit_message.edit(f"<b><emoji document_id=5328302454226298081>🫥</emoji> Удалено {removed_count} удалённых аккаунтов</b>")
